@@ -17,7 +17,7 @@ public class Producto {//abcdefgh
     @Column(name = "id_producto")
     private Long id;
 
-    @Column
+    @Column//gggg
     private String nombre;
 
     @Column
