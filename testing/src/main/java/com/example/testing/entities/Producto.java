@@ -11,7 +11,7 @@ import lombok.Data;
 @Data // Lombok will generate getters, setters, toString, equals, and hashCode methods
 @Entity // This annotation marks the class as a JPA entity
 @Table(name = "productos") //aaaaaaaaaaaaaaaaaaaa
-public class Producto {
+public class Producto {//abcdefgh
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_producto")
